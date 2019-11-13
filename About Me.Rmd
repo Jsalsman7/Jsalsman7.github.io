@@ -1,0 +1,17 @@
+---
+title: "About Me"
+author: "Jordan Salsman"
+date: "11/13/2019"
+output: html_document
+---
+
+# Hi! My name is Jordan Salsman
+
+### I graduated with a bachelor's degree in economics from the University of Pittsburgh
+
+I currently live in Hershey, Pennsylvania  
+
+My hobbies include sports, video games, and hiking  
+
+I am hoping to further my skills as a data scientist so please check out my work!  
+
