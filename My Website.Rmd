@@ -1,8 +1,0 @@
----
-title: "My Website"
-author: "Jordan Salsman"
-date: "11/13/2019"
-output: html_document
----
-# Welcome to my Website!
-### Please Check out my Projects!
