@@ -53,8 +53,8 @@ Merge Breweries and Beers by the Brewery
 Rename Names column after merging two datasets  
 
 ```{r }
-breweries_ds <- read.csv("/Users/jordansalsman/Desktop/Breweries.csv", strip.white = TRUE)
-beers_ds     <- read.csv("/Users/jordansalsman/Desktop/Beers.csv", strip.white= TRUE)
+breweries_ds <- read.csv("/Users/jordansalsman/Desktop/Unit12/Unit12/Breweries.csv", strip.white = TRUE)
+beers_ds     <- read.csv("/Users/jordansalsman/Desktop/Unit12/Unit12/Beers.csv", strip.white= TRUE)
 bmerged_ds   <- merge(breweries_ds,beers_ds,by.x="Brew_ID",by.y="Brewery_id")
 names(bmerged_ds)[2] <- "BreweryName"
 names(bmerged_ds)[5] <- "BeerName"

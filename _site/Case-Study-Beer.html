@@ -301,6 +301,8 @@ $(document).ready(function () {
 </div>
 
 
+<p>Link to RShiny App:<br />
+<a href="https://jsalsman7.shinyapps.io/Unit12/" class="uri">https://jsalsman7.shinyapps.io/Unit12/</a></p>
 <div id="load-following-libraries" class="section level3">
 <h3>Load following libraries</h3>
 <p>ggplot2, and ggthemes - visualizations<br />
@@ -321,8 +323,8 @@ caret - Regression</p>
 Load Beers from csv<br />
 Merge Breweries and Beers by the Brewery<br />
 Rename Names column after merging two datasets</p>
-<pre class="r"><code>breweries_ds &lt;- read.csv(&quot;/Users/jordansalsman/Desktop/Breweries.csv&quot;, strip.white = TRUE)
-beers_ds     &lt;- read.csv(&quot;/Users/jordansalsman/Desktop/Beers.csv&quot;, strip.white= TRUE)
+<pre class="r"><code>breweries_ds &lt;- read.csv(&quot;/Users/jordansalsman/Desktop/Unit12/Unit12/Breweries.csv&quot;, strip.white = TRUE)
+beers_ds     &lt;- read.csv(&quot;/Users/jordansalsman/Desktop/Unit12/Unit12/Beers.csv&quot;, strip.white= TRUE)
 bmerged_ds   &lt;- merge(breweries_ds,beers_ds,by.x=&quot;Brew_ID&quot;,by.y=&quot;Brewery_id&quot;)
 names(bmerged_ds)[2] &lt;- &quot;BreweryName&quot;
 names(bmerged_ds)[5] &lt;- &quot;BeerName&quot;</code></pre>
